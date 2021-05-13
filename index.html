@@ -13,13 +13,12 @@
     <title>Table</title>
 
     <style>
-            tr,td{
-                border: 1px solid black;
-                text-align: center;
-                vertical-align: middle;
-            }
-
-
+        tr,
+        td {
+            border: 1px solid black;
+            text-align: center;
+            vertical-align: middle;
+        }
     </style>
 </head>
 
@@ -27,61 +26,37 @@
 
     <table class="table table-success ">
 
-            <tr>
-                <td colspan="3">HEADING</td>
-                <td>A4</td>
-                <td>A5</td>
-                
-                
+        <tr>
+            <td colspan="3">HEADING</td>
+            <td>A4</td>
+            <td>A5</td>
+        </tr>
+        <tr>
+            <td rowspan="3">BCD1</td>
+            <td>B2</td>
+            <td>B3</td>
+            <td>B4</td>
+            <td>B5</td>
+        </tr>
 
-            </tr>
-   
+        <tr>
+            <td>C2</td>
+            <td colspan="2">C3,4</td>
+            <td rowspan="2">CD5</td>
 
-                <tr>
+        </tr>
 
-                    <td rowspan="3">BCD1</td>
-                    <td>B2</td>
-                    <td>B3</td>
-                    <td>B4</td>
-                    <td>B5</td>
-                   
+        <tr>
+            <td>D2</td>
+            <td>D3</td>
+            <td>D4</td>
+        </tr>
 
-
-                </tr>
-
-            <tr>
-                <td>C2</td>
-                <td colspan="2">C3,4</td>
-            
-                <td rowspan="2">CD5</td>
-                
-
-            </tr>
-
-
-            
-            <tr>
-                <td>D2</td>
-                <td>D3</td>
-                <td>D4</td>
-           
-
-            </tr>
-
-            <tr>
-                <td>E1</td>
-                <td colspan="4">E2~5</td>
-
-            </tr>
-            
-        
+        <tr>
+            <td>E1</td>
+            <td colspan="4">E2~5</td>
+        </tr>
     </table>
-
-
-
-
-
-
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/2.5.4/umd/popper.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.0.0-beta1/js/bootstrap.min.js"></script>
 </body>
